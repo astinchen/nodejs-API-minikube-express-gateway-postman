@@ -107,7 +107,7 @@
 
 ##3. 起用授權發送交易收到查詢結果
 
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/Authorization.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/Authorization.png)
 
 # 後續研究
 ##1. 建立ServiceMonitor監控nodeapp的資源變化
