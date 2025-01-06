@@ -25,7 +25,7 @@
  docker@minikube:~$ dokcer images
  ```
 
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/dokcer_images.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/dokcer_images.png)
  
  ##2. 將服務部署到minikube容器化平台
  ```
@@ -34,12 +34,12 @@
  kubectl get deployment
  ```
 
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/getdeployment.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/getdeployment.png)
 
  ```
  kubectl get pods
  ```
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/getpods.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/getpods.png)
 
  ##3. 部署服務的service
  ```
@@ -50,12 +50,12 @@
  ```
  minikube tunnel
  ```
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/servicetunnel.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/servicetunnel.png)
  
  ##5. 查看minikube dashboard
 
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/dashboardpods.png)
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/dashboardservice.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/dashboardpods.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/dashboardservice.png)
 
 
 # 使用Express Gateway建置服務authorization及routing
@@ -103,7 +103,7 @@
 
 ##2. 沒有授權發送電文無法查詢
 
-![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/pic/blob/main/noAuthorization.png)
+![ifxquerytest](https://github.com/astinchen/nodejs-API-minikube-express-gateway-postman/blob/main/pic/noAuthorization.png)
 
 ##3. 起用授權發送交易收到查詢結果
 
